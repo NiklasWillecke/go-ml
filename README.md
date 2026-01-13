@@ -1,7 +1,7 @@
 # 🧠 Golang Mini Neural Network (MNIST)
 
 A minimal neural network built **from scratch in Go**, featuring a **computational graph** for gradient calculation.  
-Performs **manual forward & backward propagation** — inspired by [Andrej Karpathy’s *micrograd*](https://www.youtube.com/watch?v=VMj-3S1tku0).
+Trained on the **MNIST dataset**, it recognizes **handwritten digits (0–9)** using **manual forward & backward propagation** — inspired by [Andrej Karpathy’s *micrograd*](https://www.youtube.com/watch?v=VMj-3S1tku0).
 
 ---
 
@@ -34,9 +34,3 @@ go run main.go
 ## 📚 Reference
 
 Inspired by [Andrej Karpathy – *Building micrograd from scratch*](https://www.youtube.com/watch?v=VMj-3S1tku0)
-
----
-
-## 📝 License
-
-MIT License
